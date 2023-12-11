@@ -4,7 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  rollupOptions: {
+  build: {
+    rollupOptions: {
     external: [
       'react',
       'react-dom',
@@ -14,5 +15,7 @@ export default defineConfig({
       'prop-types'
     ]
   }
+}
 })
+
 
