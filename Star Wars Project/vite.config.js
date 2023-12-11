@@ -13,11 +13,8 @@ export default defineConfig({
         'react',
         'react-dom',
         'react-router-dom',
-        '@reduxjs/toolkit',
         'react-redux',
-        'prop-types'
       ]
     }
   }
 })
-
