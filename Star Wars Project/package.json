@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
-    "run": "node server.js",
+    "start": "node server.jsx",
+    "dev": "node server.jsx",
+    "run": "node server.jsx",
     "pay": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
